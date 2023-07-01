@@ -1,0 +1,39 @@
+:root {
+	--f7-theme-color: rgb(225, 52, 74);
+	--f7-theme-color-rgb: 225, 52, 74;
+	--f7-theme-color-shade: #3cd3de;
+	--f7-theme-color-tint: #82e3ea;
+}
+
+.signed-dot {
+    margin: 12.5px;
+    height: 12.5px;
+    width: 12.5px;
+    border-radius: 50%;
+    background-color: rgb(144, 238, 144);
+}
+
+.revoked-dot {
+    margin: 12.5px;
+    height: 12.5px;
+    width: 12.5px;
+    border-radius: 50%;
+    background-color: rgb(225, 52, 74);
+}
+
+.button {
+    background-color: rgb(225, 52, 74);
+}
+
+a {
+    color: rgb(225, 52, 74);
+}
+
+.navbar-large-collapsed .topRightIcons {
+	-webkit-transition: opacity 0.1s ease-in-out;
+    -moz-transition: opacity 0.1s ease-in-out;
+    -ms-transition: opacity 0.1s ease-in-out;
+    -o-transition: opacity 0.1s ease-in-out;
+    transition: opacity 0.1s ease-in-out;
+    opacity: 0;
+}
