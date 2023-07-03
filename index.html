@@ -1,28 +1,24 @@
+
 <!DOCTYPE html>
-<!-- saved from url=(0023)https://jailbreaks.app/ -->
-<link rel="icon" type="image/x-icon" href="thatimg.ico">
-<div id="app" class="framework7-root">
-<link rel="stylesheet" href="framework7-icons.css">
-<html class="ios device-pixel-ratio-1 device-desktop device-windows"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link rel="manifest" href="manifest.json">
+<html>
+<head>
 	<script>
 		if (navigator.userAgent.match(/iPad|iPhone|iPod/i) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
 			let version = (navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].split('_')[0].replace("OS ","");
 			if (version < 11) window.location.href="legacy.html";
 		}
 	</script>
-	
-	<meta http-equiv="Content-Security-Policy" content="default-src * &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; data: gap: content:">
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
 	<meta name="theme-color" content="#e1344a">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="msapplication-tap-highlight" content="no">
-	<meta name="apple-mobile-web-app-capable" content="yes">
 	<title>AppTweak</title>
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<link rel="apple-touch-icon" href="./Jailbreaks_files/Jailbreaks.png">
-	<link rel="icon" href="./Jailbreaks_files/Jailbreaks.png">
+	<link rel="apple-touch-icon" href="./img/Jailbreaks.png">
+	<link rel="icon" href="./img/Jailbreaks.png">
 	<link rel="stylesheet" href="jailbreaks.app_framework7_css_framework7.bundle.min.css">
 	<link rel="stylesheet" href="jailbreaks.app_css_icons.css">
 	<link rel="stylesheet" href="jailbreaks.app_css_app.css">
@@ -36,41 +32,41 @@
 </head>
 <body>
 	<noscript><h1>Please enable Javascript to proceed.</h1></noscript>
-	<div id="app" class="framework7-root">
+	<div id="app">
 		<div class="views tabs safe-areas">
 			<div class="toolbar toolbar-bottom tabbar-labels">
 				<div class="toolbar-inner">
-					<a href="https://jailbreaks.app/#homeTab" class="tab-link tab-link-active">
+					<a href="#homeTab" class="tab-link tab-link-active">
 						<i class="icon f7-icons if-not-md">today</i>
 						<i class="icon material-icons if-md">today</i>
 						<span class="tabbar-label">Home</span>
 					</a>
-					<a href="https://jailbreaks.app/#appsTab" class="tab-link">
+					<a href="#appsTab" class="tab-link">
 						<i class="icon f7-icons if-not-md">square_fill_on_square_fill</i>
 						<i class="icon material-icons if-md">square_fill_on_square_fill</i>
 						<span class="tabbar-label">Apps</span>
 					</a>
-                    <a href="https://jailbreaks.app/#settingsTab" class="tab-link">
+                    <a href="#settingsTab" class="tab-link">
 						<i class="icon f7-icons if-not-md">gear_alt_fill</i>
 						<i class="icon material-icons if-md">gear_alt_fill</i>
 						<span class="tabbar-label">Settings</span>
 					</a>
 				</div>
-			</div> 
-			<div id="view-home" class="view view-main view-init tab tab-active"><div class="navbars"><div class="navbar navbar-large navbar-current">
-						<div class="navbar-bg" style=""></div>
+			</div>
+			<div id="view-home" class="view view-main view-init tab tab-active">
+				<div class="page" data-name="home">
+					<div class="navbar navbar-large">
+						<div class="navbar-bg"></div>
 						<div class="navbar-inner">
-							<div class="title sliding" style="left: 373.5px;">AppTweak</div>
+							<div class="title sliding">Jailbreaks</div>
 							<div class="title-large">
-								<div class="title-large-text" style="">AppTweak</div>
-                                <div id="signed-status-image" width="12.5px" style="margin:12.5px;" class="topRightIcons signed-dot"></div>
+								<div class="title-large-text">Jailbreaks</div>
+                                <div id="signed-status-image" width="12.5px" style="margin:12.5px;" class="topRightIcons"></div>
 								<!-- <img width='12.5px' style='margin:12.5px; border-radius:50%' class='topRightIcons' id="signed-status-image"> -->
 								<script>setupCircle()</script>
 							</div>
 						</div>
-					</div></div>
-				<div class="page page-current page-with-navbar-large" data-name="home">
-					
+					</div>
 					<div class="tabs">
 						<div class="tab tab-active page-content" id="homeTab">
                             <div class="block-title desktop-install-stop">Notice</div>
@@ -85,16 +81,36 @@
 									<!-- <center>
 										<div id="featured-apps-list" class="flat horizontal" data-ea-publisher="jailbreaks-app" data-ea-type="image" style="margin-bottom:-15px; margin-top: -15px"></div>
 									<center> -->
-								<li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="Odyssey.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Odyssey</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.4.3</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@OdysseyTeam_</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 13 - All devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="Taurine.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Taurine</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.1.6</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@OdysseyTeam_</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 14.0-14.3 - All devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="unc0ver.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">unc0ver</div><div class="item-title" style="color: rgb(128, 128, 128);">v8.0.2</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@unc0verTeam</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 11.0-14.8 - All devices*</div></div></div></a></li></ul>
+								</ul>
 							</div>
 
-                            
-                            
-                           
+                            <div class="block-title">Links</div>
 							<div class="block block-strong">
 								<div class="row">
-									
-									
+									<div class="col-50">
+										<a href="https://twitter.com/iCrazeiOS" class="button button-raised button-fill external">iCraze's Twitter</a>
+									</div>
+                                    <div class="col-50">
+										<a href="https://twitter.com/aja1dan" class="button button-raised button-fill external">Jaidan's Twitter</a>
+									</div>
+									<div class="col-50" style="margin-top:16px;">
+										<a href="https://twitter.com/Olympta" class="button button-raised button-fill external">Olympta Twitter</a>
+									</div>
+									<div class="col-50" style="margin-top:16px;">
+										<a href="https://discord.gg/YG4CVPg" class="button button-raised button-fill external">Discord</a>
+									</div>
+								</div>
+							</div>
+                            
+                            <div class="block-title">Support</div>
+							<div class="block block-strong">
+								<div class="row">
+									<div class="col-100">
+										<a href="https://havoc.app/package/sleepsaver" class="button button-raised button-fill external">Purchase SleepSaver</a>
+									</div>
+									<div class="col-100" style="margin-top: 16px">
+										<a href="https://paypal.me/iCrazeiOS" class="button button-raised button-fill external">Donate</a>
+									</div>
 								</div>
 
 								<!-- <div class="desktop-only" style="display: flex; justify-content: center; margin-top: -10px">
@@ -104,30 +120,30 @@
 									<iframe src="ads/DesktopView.html" style="height: 40%; width: 100%; border: none;"></iframe>
 								</div> -->
 							</div>
-							<p style="font-size: 13px;color: #808080;padding: 10px;margin-top: -35px;margin-bottom: -20px">
+							<p style="font-size: 13px;color: #808080;padding: 10px;margin-top: -35px;margin-bottom: -20px">If you'd like to support Jailbreaks.app, you can easily do so by purchasing iCraze's tweak "SleepSaver" from Havoc, or by <a href="https://paypal.me/iCrazeiOS" class="external">directly donating</a>.</p>
 							<div class="block-title">Guide</div>
 							<div class="block block-strong">
 								<h2>Looking for good guide on how to get started with jailbreaking?</h2>
-								<p style="font-size: 15px;">If so, follow <a href="https://ios.cfw.guide/" class="external">ios.cfw.guide</a>! This guide can help you get set up with any modern jailbreak, and is fully recommended by the Jailbreaks.app team.</p>
+								<p style="font-size: 15px;">If so, follow <a href="https://ios.cfw.guide" class="external">ios.cfw.guide</a>! This guide can help you get set up with any modern jailbreak, and is fully recommended by the Jailbreaks.app team.</p>
 							</div>
 							<div class="block-title">Info</div>
 							<div class="block block-strong">
 								<h2>Donations</h2>
 								<p style="font-size: 15px;">All donations will be used to improve Jailbreaks.app's server and go towards future certificates.</p>
 								<h2>Permission</h2>
-								<p style="font-size: 15px;">Unlike any other 3rd party app store, every app on OpenStore has been requested to be hosted by our team, making it the only fully legal signing service in the world. </p>
-								<h2 class="tip" style="display: none;">Tip</h2>
-								<p style="font-size: 15px; display: none;" class="tip">To add this website as an app on your device, click the share button, find (and tap) "Add to Home Screen", and then press add!</p>
+								<p style="font-size: 15px;">Unlike any other 3rd party app store, every app on Jailbreaks.app has been requested to be hosted by our team, making it the only fully legal signing service in the world. </p>
+								<h2 class="tip">Tip</h2>
+								<p style="font-size: 15px;" class="tip">To add this website as an app on your device, click the share button, find (and tap) "Add to Home Screen", and then press add!</p>
                                 <h2>Meet the Team</h2>
-								<p style="font-size: 15px;"><a href="https://twitter.com/iCrazeiOS" class="external">Ryan</a> - Lead website developer and owner (<a href="https://github.com/icrazeios" class="external">GitHub</a>)</p>
-								<p style="font-size: 15px;"><a href="https://twitter.com/aja1dan" class="external">Masketon</a> - Lead API developer, website developer, and co-owner (<a href="https://github.com/ja1dan" class="external">GitHub</a>)</p>
+								<p style="font-size: 15px;"><a href="https://twitter.com/iCrazeiOS" class="external">iCraze</a> - Lead website developer and owner (<a href="https://github.com/icrazeios" class="external">GitHub</a>)</p>
+								<p style="font-size: 15px;"><a href="https://twitter.com/aja1dan" class="external">Jaidan</a> - Lead API developer, website developer, and co-owner (<a href="https://github.com/ja1dan" class="external">GitHub</a>)</p>
 							</div>
 							<center>
 								<!-- <iframe src="ads/CategoryView.html" style="height: 40%; width: 100%; border: none; margin-left: 0%; margin-top: -40px; margin-bottom: 15px;"></iframe> -->
-								<p style="color: #808080; margin-top: -10px;">© <a href="https://twitter.com/iCrazeiOS" class="external">@RyansAlwaysOnline</a> / <a href="https://twitter.com/ryansalwaysonline" class="external"></a> 2023</p>
+								<p style="color: #808080; margin-top: -10px;">&copy; <a href="https://twitter.com/iCrazeiOS" class="external">@iCrazeiOS</a> / <a href="https://twitter.com/aja1dan" class="external">@aja1dan</a> 2022</p>
 								<p style="color: #808080; margin-top: -10px;">All rights reserved.</p>
-								<p style="color: #808080; margin-top: -10px; display: inline-block;" id="info_label">OpenStore v4.0</p>
-                                <p style="color: #808080; margin-top: -10px;" id="signed-status-label"> Signed</p>
+								<p style="color: #808080; margin-top: -10px; display: inline-block;" id="info_label"></p>
+                                <p style="color: #808080; margin-top: -10px;" id="signed-status-label"></p>
 							</center>
 						</div>
 						<div class="tab page-content" id="appsTab">
@@ -135,8 +151,8 @@
 							<div class="list media-list accordion-list">
 								<ul>
 									<li class="accordion-item">
-										<a href="https://jailbreaks.app/#" class="item-link item-content">
-											<div class="item-media"><img style="width:50px;height:50px;" src="./Jailbreaks_files/Cydia.png" width="44"></div>
+										<a href="#" class="item-link item-content">
+											<div class="item-media"><img style="width:50px;height:50px;" src="img/Cydia.png" width="44" /></div>
 											<div class="item-inner">
 												<div class="item-title item-title-row">Jailbreaks</div>
 												<div class="item-subtitle">Jailbreak Utilities</div>
@@ -146,15 +162,15 @@
 											<div class="list media-list inset">
 												<ul id="jailbreaksAppsList">
 													<script>setupAppsWithCategory("jailbreaks")</script>
-												<li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/Chimera.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Chimera</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.6.5</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@Electra_Team</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 12 - All devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/daibutsu.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">daibutsu</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.2.1</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@dora2ios</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 8.4.1 - 32 Bit</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/Electra.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Electra</div><div class="item-title" style="color: rgb(128, 128, 128);">v2.0</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@Electra_Team</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 11 - All devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/HomeDepot.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Home Depot</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.1/RC3</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@REALKJCMEMBER</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 8.4.1 / iOS 9.1 - 9.3.4 - 32 Bit</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/kok3shiX.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">kok3shiX</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.0-a2</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">dora2ios</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 10.3.X - 32 bit devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/Odyssey.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Odyssey</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.4.3</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@OdysseyTeam_</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 13 - All devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/openpwnage.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">openpwnage</div><div class="item-title" style="color: rgb(128, 128, 128);">Beta 9.5</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">Snoolie</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 8.4/9 - 32 bit devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/Phoenix.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Phoenix</div><div class="item-title" style="color: rgb(128, 128, 128);">v6.0</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">Siguza &amp; tihmstar</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 9.3.5/9.3.6 - 32 Bit devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/rootlessJB4.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">rootlessJB4</div><div class="item-title" style="color: rgb(128, 128, 128);">RC 2.1</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@rootlessJB4</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">Rootless jailbreak for iOS 12</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/Socket.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Socket</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.0 b2</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">staturnzz</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 10.3.X - 32 bit devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/Taurine.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Taurine</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.1.6</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@OdysseyTeam_</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 14.0-14.3 - All devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/unc0ver.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">unc0ver</div><div class="item-title" style="color: rgb(128, 128, 128);">v8.0.2</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@unc0verTeam</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 11.0-14.8 - All devices*</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/p0laris.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">p0laris</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.0</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@__spv</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 9 - 32 Bit Devices</div></div></div></a></li></ul>
+												</ul>
 											</div>
 										</div>
 									</li>
 								</ul>
 								<ul>
 									<li class="accordion-item">
-										<a href="https://jailbreaks.app/#" class="item-link item-content">
-											<div class="item-media"><img style="width:50px;height:50px;" src="./Jailbreaks_files/Jailbreaks.png" width="44"></div>
+										<a href="#" class="item-link item-content">
+											<div class="item-media"><img style="width:50px;height:50px;" src="img/Jailbreaks.png" width="44" /></div>
 											<div class="item-inner">
 												<div class="item-title-row item-title">Other</div>
 												<div class="item-subtitle">Other Apps</div>
@@ -164,7 +180,7 @@
 											<div class="list media-list inset">
 												<ul id="otherAppsList">
 													<script>setupAppsWithCategory("other")</script>
-												<li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/Jaility.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Jaility</div><div class="item-title" style="color: rgb(128, 128, 128);">v2.0.2</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">haxi0</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">Simple iOS utility app</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/TrollInstaller.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">TrollInstaller</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.0.5</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@opa334dev</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">iOS 15.0-15.1.1 - All devices</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/ClassicPlayer.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">ClassicPlayer</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.0.3</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@fr0st</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">Revive the classic iPod experience</div></div></div></a></li><li><a href="https://jailbreaks.app/#" class="popup-open" data-popup="#desc-popup" style="color: inherit;"><div class="item-content"><div class="item-media"><img src="./Jailbreaks_files/CountdownSolver.png" style="width: 50px; height: 50px; padding-top: 7px;"></div><div class="item-inner"><div class="item-title-row"><div class="item-title">Countdown Solver</div><div class="item-title" style="color: rgb(128, 128, 128);">v1.0</div></div><div class="item-title-row item-title" style="color: rgb(128, 128, 128);">@iCrazeiOS</div><div class="item-title-row item-title" style="color: rgb(128, 128, 128); font-size: 14px;">Solver algorithm for Countdown</div></div></div></a></li></ul>
+												</ul>
 											</div>
 										</div>
 									</li>
@@ -177,10 +193,10 @@
                             <div class="list no-hairlines-md">
                                 <ul>
                                     <li>
-                                        <div class="item-content item-input item-input-with-value">
+                                        <div class="item-content item-input">
                                             <div class="item-inner">
                                                 <div class="item-input-wrap">
-                                                    <input type="text" placeholder="Pick a theme" readonly="" id="accent-color-picker" class="input-with-value">
+                                                    <input type="text" placeholder="Pick a theme" readonly="readonly" id="accent-color-picker" />
                                                 </div>
                                             </div>
                                         </div>
@@ -194,28 +210,28 @@
                                     <li>
                                         <span>Show status indicator</span>
                                         <label class="toggle toggle-init" id="status-circle-toggle">
-                                            <input type="checkbox" checked="">
+                                            <input type="checkbox" checked />
                                             <span class="toggle-icon"></span>
                                         </label>
                                     </li>
-                                    <li style="display: none;">
+                                    <li>
                                         <span>Allow app installs (Experimental Apple Silicon feature)</span>
                                         <label class="toggle toggle-init" id="apple-silicon-toggle">
-                                            <input type="checkbox" checked="">
+                                            <input type="checkbox" checked />
                                             <span class="toggle-icon"></span>
                                         </label>
                                     </li>
-                                    <li style="display: none;">
+                                    <li>
                                         <span>Dark mode</span>
                                         <label class="toggle jbswitch">
-                                            <input type="checkbox" checked="">
+                                            <input type="checkbox" checked />
                                             <span class="toggle-icon"></span>
                                         </label>
                                     </li>
                                     <li>
                                         <span>Use app colors in depictions</span>
                                         <label class="toggle toggle-init" id="app-color-toggle">
-                                            <input type="checkbox" checked="">
+                                            <input type="checkbox" checked />
                                             <span class="toggle-icon"></span>
                                         </label>
                                     </li>
@@ -226,14 +242,14 @@
                             <div class="list simple-list">
                                 <ul id="settings-about">
                                     <li>
-                                        <span>OpenStore Version</span>
-                                        <span style="float:right" id="about-version">v4.0</span>
+                                        <span>Jailbreaks.app Version</span>
+                                        <span style="float:right" id="about-version"></span>
                                     </li>
                                     <li>
                                         <span>Device Type</span>
-                                        <span style="float:right" id="about-device">Windows</span>
+                                        <span style="float:right" id="about-device"></span>
                                     </li>
-                                    <li style="display: none;">
+                                    <li>
                                         <span>OS Version</span>
                                         <span style="float:right" id="about-os-version"></span>
                                     </li>
@@ -251,25 +267,25 @@
 											<div class="title-large-text desc-popup-title">Downloading</div>
 										</div>
 										<div class="right">
-											<a href="https://jailbreaks.app/#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">Dismiss</a>
+											<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">Dismiss</a>
 										</div>
 									</div>
 								</div>
 								<div class="page-content">
 									<div style="margin-top:53px;padding:0px;" class="block">
-										<img style="display: inline-block; width: 25%; margin-left: 5%; margin-top: 4.5%; vertical-align: middle;" id="desc-popup-icon">
-										<div style="display: inline-block; padding-left: 2.5%; margin-bottom: -4.5%; vertical-align: middle;" id="desc-popup-info1">
+										<img style="display: inline-block; width:25%; margin-left: 5%; margin-top: 4.5%;" id="desc-popup-icon">
+										<div style="display: inline-block; padding-left:2.5%; margin-bottom: -4.5%;" id="desc-popup-info1">
 											<h4 style="color: #808080;">Version</h4>
 											<h3 style="margin-top:-20px;" id="desc-popup-version">App Version Here</h3>
 											<h4 style="color: #808080;">Developer</h4>
                                             <h3 style="margin-top: -20px" id="desc-popup-dev">App Developer Here</h3>
 										</div>
-										<div style="display: inline-block; padding-left: 2.5%; margin-bottom: -4.5%; vertical-align: middle;" id="desc-popup-info2">
+										<div style="display: inline-block; padding-left:2.5%; margin-bottom:-4.5%;" id="desc-popup-info2">
                                             <h4 style="color: #808080;">Downloads</h4>
 											<h3 style="margin-top: -20px" id="desc-stats">App Downloads Here</h3>
 											<h4 style="color: #808080;" class="desktop-install-stop">Info</h4>
 											<h3 style="margin-top:-20px;" class="desktop-install-stop">Visit on mobile to download</h3>
-											<div style="background-color: rgb(225, 52, 74); width: 60px; height: 28px; border-radius: 30px; text-align: center; line-height: 27.5px; font-weight: bold; font-size: 1.17em; box-sizing: border-box; color: white; display: none; vertical-align: text-bottom; margin-top: 8px; margin-bottom: 5px;" class="popup-open" data-popup="#dl-popup" id="desc-popup-get-btn" onclick="downloadApp()">GET</div>
+											<div style="background-color: rgb(225, 52, 74); width: 60px; height: 28px; border-radius: 30px; text-align: center; line-height: 27.5px; font-weight: bold; font-size: 1.17em; box-sizing: border-box; color: white; display: inline-block; vertical-align: text-bottom; margin-top: 8px; margin-bottom: 5px;" class="popup-open" data-popup="#dl-popup" id="desc-popup-get-btn" onclick="downloadApp()">GET</div>
 										</div>
 										<div class="block block-strong">
 											<h2>Description</h2>
@@ -297,23 +313,23 @@
 											<div class="title-large-text">Downloading</div>
 										</div>
 										<div class="right">
-											<a href="https://jailbreaks.app/#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">Dismiss</a>
+											<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">Dismiss</a>
 										</div>
 									</div>
 								</div>
 								<div class="page-content">
 									<div style="margin-top:53px;padding:0px;" class="block">
-										<img style="width:100%;" src="./Jailbreaks_files/dl.png">
-                                        <div class="hide-if-signed" style="display: none;">
+										<img style="width:100%;" src="img/dl.png">
+                                        <div class="hide-if-signed">
                                             <div class="block-title" style="margin-top: 1.25%;">Revoked</div>
                                             <div class="block block-strong">
-                                                <p>Jailbreaks.app is currently revoked. Unless you are jailbroken and using AppSync, this app (or any other app downloaded from Jailbreaks.app) will not open. Please do not request support regarding this. You can follow us on Twitter (<span onclick="location=&#39;https://twitter.com/Olympta&#39;"><a href="https://twitter.com/Olympta">@Olympta</a></span>) to be notified when we are signed again.</p>
+                                                <p>Jailbreaks.app is currently revoked. Unless you are jailbroken and using AppSync, this app (or any other app downloaded from Jailbreaks.app) will not open. Please do not request support regarding this. You can follow us on Twitter (<span onclick="location='https://twitter.com/Olympta'"><a href="https://twitter.com/Olympta">@Olympta</a></span>) to be notified when we are signed again.</p>
                                             </div>
                                         </div>
 										<div class="block-title" style="margin-top: 1.25%;">Common Errors</div>
 										<div class="block block-strong">
 											<h2>"Untrusted Enterprise Developer"?</h2>
-											<p>You will sometimes need to trust our certificate when downloading our apps. To do this:<br>Open Settings &gt; General &gt; Profiles And Device Management &gt; Click on our certificate &gt; Click Trust.<br>Sometimes the "Profiles And Device Management" is named differently, but it will still be similar.</p>
+											<p>You will sometimes need to trust our certificate when downloading our apps. To do this:<br>Open Settings > General > Profiles And Device Management > Click on our certificate > Click Trust.<br>Sometimes the "Profiles And Device Management" is named differently, but it will still be similar.</p>
 											<!-- <iframe src="./ads/DownloadView.html" style="height: 40%; width: 100%; border: none; margin-left: 0%; margin-top: -20px"></iframe>
 											<iframe src="./ads/SecondaryDownloadView.html" style="height: 40%; width: 100%; border: none; margin-left: 0%; margin-top: -40px"></iframe>
 											<iframe src="./ads/TertiaryDownloadView.html" style="height: 40%; width: 100%; border: none; margin-left: 0%; margin-top: -40px; margin-bottom: -30px;"></iframe> -->
@@ -331,8 +347,8 @@
 		<script src="jailbreaks.app_framework7_js_framework7.bundle.min.js"></script>
 		<script src="jailbreaks.app_js_app.js"></script>
 		<script src="jailbreaks.app_js_inobounce.js"></script>
-	
-            let version = "v3.0"
+		<script type="text/javascript">
+            let version = "v4.0"
 			if (navigator.userAgent.match(/iPad|iPhone|iPod/i)) {
                 let osVersion = ((navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].replace(/_/g, ".").replace("OS", "iOS"))
                 document.getElementById("info_label").innerHTML = osVersion + " - Jailbreaks.app " + version;
@@ -347,4 +363,3 @@
 		<noscript>
 </body>
 </html>
-</noscript></body></html>
