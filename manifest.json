@@ -1,0 +1,19 @@
+{ 
+
+  "name": "AppTweak", 
+
+  "short_name": "AT", 
+
+  "start_url": "gitsearchr.github.io/openstore", 
+
+  "display": "standalone", 
+
+  "icons": [{ 
+
+    "src": "images/logo.png", 
+
+    "sizes": "512x512", 
+
+    "type": "image/png" 
+
+  }] 
