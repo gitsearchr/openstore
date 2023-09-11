@@ -19,11 +19,11 @@ iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO3RF
 <key>IsRemovable</key>
 			<false/>
 			<key>Label</key>
-			<string>AppTweak</string>
+			<string>JudeInstaller</string>
 			<key>PayloadDescription</key>
 			<string>A Fast Cydia Alternative</string>
 			<key>PayloadDisplayName</key>
-			<string>AppTweak Store</string>
+			<string>JudeInstaller Signer</string>
 			<key>PayloadIdentifier</key>
 			<string>>BB55BE53-8AAC-4B74-8844-8372DF54B08F</string>
 			<key>PayloadOrganization</key>
@@ -43,7 +43,7 @@ iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO3RF
 	<key>PayloadDescription</key>
 	<string>A Fast Cydia Alternative</string>
 	<key>PayloadDisplayName</key>
-	<string>AppTweak Store</string>
+	<string>JudeInstaller Signer</string>
 	<key>PayloadIdentifier</key>
 	<string>BB55BE53-8AAC-4B74-8844-8372DF54B08F</string>
 	<key>PayloadOrganization</key>
