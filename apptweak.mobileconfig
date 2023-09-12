@@ -5,7 +5,7 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>Made With 💖 By AppTweak (Tweak LLC) 2023</string>
+		<string>Made With 💖 By Jude Apps (Jude Apps LLC) 2023</string>
 	</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -21,13 +21,13 @@ iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO3RF
 			<key>Label</key>
 			<string>JudeInstaller</string>
 			<key>PayloadDescription</key>
-			<string>A Fast Cydia Alternative</string>
+			<string>A Morder IPA Installer, IOS 11 And Above</string>
 			<key>PayloadDisplayName</key>
 			<string>JudeInstaller Signer</string>
 			<key>PayloadIdentifier</key>
 			<string>>BB55BE53-8AAC-4B74-8844-8372DF54B08F</string>
 			<key>PayloadOrganization</key>
-			<string>Tweak LLC</string>
+			<string>Jude Apps LLC</string>
 			<key>PayloadType</key>
 	<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
@@ -41,13 +41,13 @@ iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAO3RF
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>A Fast Cydia Alternative</string>
+	<string>A Morder IPA Installer, IOS 11 And Above</string>
 	<key>PayloadDisplayName</key>
 	<string>JudeInstaller Signer</string>
 	<key>PayloadIdentifier</key>
 	<string>BB55BE53-8AAC-4B74-8844-8372DF54B08F</string>
 	<key>PayloadOrganization</key>
-	<string>Tweak LLC</string>
+	<string>Jude Apps LLC</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/><!--never set to true with random/unknown uuids/identifiers-->
 	<key>PayloadType</key>
